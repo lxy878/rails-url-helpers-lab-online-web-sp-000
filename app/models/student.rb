@@ -1,5 +1,4 @@
 class Student < ActiveRecord::Base
-  @active = false
   def active
     false
   end
