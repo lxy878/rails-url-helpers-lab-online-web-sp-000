@@ -1,7 +1,7 @@
 class Student < ActiveRecord::Base
   @active = false
   def active
-    @active = !@active
+    false
   end
 
   def to_s
