@@ -1,6 +1,5 @@
 class Student < ActiveRecord::Base
-   @active=false
-
+  attr_accessor :active
   def to_s
     self.first_name + " " + self.last_name
   end
